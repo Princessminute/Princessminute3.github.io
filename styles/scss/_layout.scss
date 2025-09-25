@@ -1,0 +1,47 @@
+@use "sass:color";
+
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: calc(100dvh - 64px);
+
+  @include respond(md) {
+    grid-template-columns: 1fr; // sidebar colapsa arriba
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100dvh;
+  background: linear-gradient(180deg, $navy 0%, color.adjust($navy, $lightness: -6%) 100%);
+
+  color: $white;
+  padding: $sp-4 $sp-3;
+  z-index: $z-sidebar;
+
+  @include respond(md) {
+    height: auto;
+    position: static;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+  }
+}
+
+.main-content {
+  background: $sky;
+  padding: $sp-4;
+
+  @include respond(sm) {
+    padding: $sp-3;
+  }
+}
+
+.site-footer {
+  background: $white;
+  color: $ink;
+  border-top: 1px solid rgba(0,0,0,.05);
+}

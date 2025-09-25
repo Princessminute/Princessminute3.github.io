@@ -1,0 +1,40 @@
+[
+  {
+    "id": 101,
+    "id_categoria": 3,
+    "nombre": "Serum Niacinamide 10%",
+    "marca": "Some By Mi",
+    "precio": 59.90,
+    "stock": 25,
+    "imagen_principal": "./assets/img/products/serum-niacinamide.jpg"
+  },
+  {
+    "id": 102,
+    "id_categoria": 5,
+    "nombre": "Sunscreen SPF50+ PA++++",
+    "marca": "Beauty of Joseon",
+    "precio": 69.90,
+    "stock": 50,
+    "imagen_principal": "./assets/img/products/boJ-sunscreen.png"
+  },
+  {
+    "id": 103,
+    "id_categoria": 4,
+    "nombre": "Crema Hidratante Rice",
+    "marca": "I’m From",
+    "precio": 79.90,
+    "stock": 18,
+    "imagen_principal": "./assets/img/products/rice-cream.png"
+  },
+  {
+    "id": 104,
+    "id_categoria": 1,
+    "nombre": "Cleansing Oil",
+    "marca": "PURITO",
+    "precio": 64.90,
+    "stock": 30,
+    "imagen_principal": "./assets/img/products/purito-oil.png"
+  }
+  
+  
+]

@@ -1,0 +1,16 @@
+@use 'variables';
+@use 'mixins';
+@use 'layout';
+@use 'components';
+@use 'utilities';
+
+* { box-sizing: border-box; }
+:root { color-scheme: light; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: variables.$font-base;
+  color: variables.$ink;
+  background: variables.$sky;
+}
+.visually-hidden { position:absolute !important; clip:rect(1px,1px,1px,1px); padding:0; border:0; height:1px; width:1px; overflow:hidden; }

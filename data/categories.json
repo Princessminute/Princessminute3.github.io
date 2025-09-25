@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Limpieza", "slug": "limpieza", "descripcion": "Oil cleansers y espumas" },
+  { "id": 2, "nombre": "Tónicos",  "slug": "tonicos",  "descripcion": "Hidratantes ligeros" },
+  { "id": 3, "nombre": "Serums",   "slug": "serums",   "descripcion": "Tratamientos concentrados" },
+  { "id": 4, "nombre": "Cremas",   "slug": "cremas",   "descripcion": "Moisturizers y sleeping packs" },
+  { "id": 5, "nombre": "Sunscreen","slug": "sunscreen","descripcion": "Protección solar" }
+]

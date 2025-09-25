@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+.btn-navy {
+  background: $navy;
+  color: $white;
+  border: none;
+  border-radius: .8rem;
+  padding: .6rem 1rem;
+}
+.btn-navy:hover { filter: brightness(1.08); }
+
+.badge-soft {
+  background: rgba(11,37,69,.08);
+  color: $navy;
+  border-radius: 999px;
+  padding: .2rem .55rem;
+  font-size: .8rem;
+}
+
+.input-group-rounded .form-control {
+  border-radius: 999px;
+  padding-left: 2.4rem;
+}
+.input-icon-left {
+  position: relative;
+  .icon {
+    position: absolute; left: .85rem; top: 50%; transform: translateY(-50%);
+    width: 18px; height: 18px; opacity: .7;
+  }
+}
+
+.shadow-soft { box-shadow: $shadow-soft; }
+.round-lg    { border-radius: $radius-lg; }
+
+.text-ink    { color: $ink; }
+.bg-sky      { background: $sky; }
+.bg-white    { background: $white; }
+
+.cart-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  svg { width: 22px; height: 22px; }
+}
+.cart-badge {
+  position: absolute;
+  top: -6px; right: -6px;
+  min-width: 18px; height: 18px;
+  padding: 0 4px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
